@@ -1,0 +1,44 @@
+.cart {
+  display: none;
+}
+
+.cartOpen {
+  z-index: 1000;
+  border-radius: 15px;
+  background-color: var(--background);
+  box-shadow: 5px 5px 15px 2px var(--shadow);
+  top: 5rem;
+  right: 5rem;
+  position: absolute;
+  width: 400px;
+  height: 300px;
+}
+
+.cartOpen h2 {
+  border-bottom: 1px solid var(--text-hover);
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.cartOpen div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+  height: calc(100% - 5rem);
+}
+
+@media(max-width: 680px) {
+  .cartOpen {
+    right: 1rem;
+    width: 350px;
+    height: 250px;
+  }
+}
+
+@media(max-width: 375px) {
+  .cartOpen {
+    width: 300px;
+    height: 200px;
+  }
+}

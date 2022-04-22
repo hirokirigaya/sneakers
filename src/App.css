@@ -1,0 +1,30 @@
+* {
+  font-family: 'Kumbh Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+.App {
+  color: var(--text-primary);
+  background-color: var(--background);
+  font-size: large;
+  font-weight: bold;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+button {
+  color: var(--text-primary);
+  background-color: var(--background);
+  border: 2px var(--text-primary) solid;
+  float: right;
+}
+
+
+html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
+  background: var(--border);
+}
+
+html::-webkit-scrollbar-track, body::-webkit-scrollbar-track {
+  width: 5px; 
+  height: 5px;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+
+  
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+
+/*
+
+Color Theme
+
+*/
+
+:root {
+  --background: hsl(223, 64%, 98%);
+  --text-primary: hsl(220, 13%, 13%);
+  --btn-hover: hsl(0, 0%, 27%);
+  --text-secondary:  hsl(220, 14%, 75%);
+  --border-bottom:  hsl(220, 14%, 75%);
+  --text-hover: hsl(219, 9%, 45%);
+  --border:hsl(26, 100%, 55%);
+  --hover-button:hsl(26, 97%, 60%);
+  --shadow: hsl(220, 13%, 13%, 0.2);
+  --modal: hsl(220, 13%, 13%, 0.7);
+
+}
+
+[data-theme='dark'] {
+  --background: #141414;
+  --btn-hover: hsl(0, 0%, 76%);
+  --text-primary: hsl(223, 64%, 98%);
+  --text-secondary:  hsl(220, 14%, 75%);
+  --border-bottom:  hsl(0, 0%, 25%);
+  --text-hover: hsl(219, 9%, 45%);
+  --hover-button:hsl(26, 97%, 60%);
+  --border:hsl(26, 100%, 55%);
+  --shadow: rgba(71, 71, 71, 0.2);
+  --modal: hsl(220, 13%, 13%, 0.7);
+}
+
