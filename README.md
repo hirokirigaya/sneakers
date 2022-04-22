@@ -6,5 +6,3 @@ I found it a very good challenge, I learned how to build a more responsive websi
 ![image-page](https://i.imgur.com/FY6SISV.png)
 
 
-contribuições do slucke foi porque esqueci de trocar config user e acabei commitando na conta errada 
-
